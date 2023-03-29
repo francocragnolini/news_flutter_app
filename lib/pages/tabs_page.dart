@@ -71,7 +71,7 @@ class _NavigationModel extends ChangeNotifier {
   int _paginaActual = 0;
 
   // coordinar el index del BottonNavigationBar con el  PageView
-  PageController _pageController = PageController(initialPage: 0);
+  final PageController _pageController = PageController(initialPage: 0);
 
   int get paginaActual => _paginaActual;
 

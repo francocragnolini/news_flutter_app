@@ -49,6 +49,7 @@ class _Noticia extends StatelessWidget {
 class _TarjetaBotones extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // ignore: avoid_unnecessary_containers
     return Container(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
